@@ -1,14 +1,14 @@
 # This is a README with the description of this project
 
-Group project - 0x16. C - simple_shell
+# Group project - 0x16. C - simple_shell
 
-//this project is about a Unix shell which is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
+	this project is about a Unix shell which is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
 
 # Background Context
 
 A simple UNIX command interpreter.
 
-#GENERAL context
+# GENERAL context
 * How a shell works
 * What is a pid and a ppid
 * How to manipulate the environment of the current process
@@ -20,7 +20,7 @@ A simple UNIX command interpreter.
 * How to suspend the execution of a process until one of its children terminates
 * Shows What EOF / “end-of-file” is
 
-#Requirement satisfied
+# Requirement satisfied
 * Editors used: vi, vim, emacs
 * All files are compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * All files end with a new line
@@ -35,7 +35,7 @@ A simple UNIX command interpreter.
 # Output
 
 	Unless specified otherwise, the program has the exact same output as sh (/bin/sh) as well as the exact same error output.
-The only difference is when printing an error, the name of the program is equivalent to the argv[0]
+	The only difference is when printing an error, the name of the program is equivalent to the argv[0]
 
 # Example of error with sh:
 
