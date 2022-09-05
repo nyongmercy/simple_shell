@@ -184,12 +184,15 @@ Simple shell 0.4 +
 # 9. setenv, unsetenv
 
 Simple shell 1.0 +
+
 //Implement the setenv and unsetenv builtin commands
 	setenv
+	
 		* Initialize a new environment variable, or modify an existing one
 		* Command syntax: setenv VARIABLE VALUE
 		* Should print something on stderr on failure
 	unsetenv
+	
 		* Remove an environment variable
 		* Command syntax: unsetenv VARIABLE
 		* Should print something on stderr on failure
@@ -197,11 +200,14 @@ Simple shell 1.0 +
 # 10. cd
 
 Simple shell 1.0 +
+
 //implement the builtin command cd:Changes the current directory of the process.
+
 	* Command syntax: cd [DIRECTORY]
 	* If no argument is given to cd the command must be interpreted like cd $HOME
 	* You have to handle the command cd -
 	* You have to update the environment variable PWD when you change directory
+	
 man chdir, man getcwd
 
 # 11. ;
@@ -239,7 +245,7 @@ Simple shell 1.0 +
 
 simple shell 1.0 +
 
-	*Handle comments (#)
+	* Handle comments (#)
 
 # 16. File as input
 
